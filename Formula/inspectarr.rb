@@ -5,23 +5,23 @@ class Inspectarr < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.0/inspectarr-linux-arm64"
-      sha256 "c7ff21b9d1d17e34e29925457adf7f9fd9e85acb3f99602869c2b51cc8f213b7"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.1/inspectarr-linux-arm64"
+      sha256 "c04eb0a429cbbb063ddcea9b7ab809ae5d4c41d801db65040cf7e06c39704bef"
     end
     on_intel do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.0/inspectarr-linux-x64"
-      sha256 "6937011173f2cbbe67552f7792defcf50560c0013619ace75b413e578852e022"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.1/inspectarr-linux-x64"
+      sha256 "85563195312aafe3bf9a463dafc3a014d953a33a5d63276053b229652d359326"
     end
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.0/inspectarr-macos-arm64"
-      sha256 "2fa001960cf3d111c2e0d39a49edaac141dc55eeee9ef6824f3907a993ab24b2"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.1/inspectarr-macos-arm64"
+      sha256 "1d70a53f1c74863518f4dd1e1ac7683921cb7cd48d129627e570c3a11d41a8ed"
     end
     on_intel do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.0/inspectarr-macos-x64"
-      sha256 "1796373bb991289dd775704cc402edeac16249a863a9b9f61be10fb6d0f11629"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.0.1/inspectarr-macos-x64"
+      sha256 "62777b0485c40e384c02886310395158fdfc2c72230953aab49574de3d93bcdf"
     end
   end
 
