@@ -2,27 +2,27 @@ class Inspectarr < Formula
   desc "CLI tool for querying and inspecting the media in your Radarr and Sonarr instances"
   homepage "https://github.com/adamhl8/inspectarr"
   license "MIT"
-  version "1.3.1"
+  version "1.3.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.1/inspectarr-macos-arm64"
-      sha256 "f2297f375721066dee4147518889a55c64ae392ecafdde480796a786ccc03ac3"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.2/inspectarr-macos-arm64"
+      sha256 "d7a84e330b28f190069c21163b3e8dd3d6e45adc1b391d44bb784bf65dc82282"
     end
     on_intel do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.1/inspectarr-macos-x64"
-      sha256 "7ce9cb473a52fe067bd715f7842bcd917ca61bb0bc59678bb062c2ad0c7629cb"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.2/inspectarr-macos-x64"
+      sha256 "2e804100641006f9bc183e1fc749939b7a63ff756deacfde9a3b1ebe3940e101"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.1/inspectarr-linux-arm64"
-      sha256 "31ee69708654752f0565ada6c9389502ad5f7afdd7bf19a7855a0b22d8a939b8"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.2/inspectarr-linux-arm64"
+      sha256 "d4a1da8de5e104f8aaf89bb9ab493cc81d6a352bd7c1556e4b3221918749c86a"
     end
     on_intel do
-      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.1/inspectarr-linux-x64"
-      sha256 "23452d1232edd3e7b85a76d1d46263e02d92e196ff96451e862f81c12b9aa9f5"
+      url "https://github.com/adamhl8/inspectarr/releases/download/v1.3.2/inspectarr-linux-x64"
+      sha256 "84e868fa35e31410758a0acb40fb6ab36311919b8a76fde56adadd20df4f10f3"
     end
   end
 
